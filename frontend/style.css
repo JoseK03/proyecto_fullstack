@@ -20,9 +20,16 @@ nav{
     background-color: var(--color-base);
     color: var(--color-oscuro);
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 nav h1{
     font-family: 'Alfa Slab One', cursive;
+}
+nav button{
+    background: none;
+    border: none;
+    font-size: x-large;
 }
 
 main{
@@ -36,26 +43,27 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    
 }
 
-.cajaLink{
+section a{
     height: 70px;
-    width: 300px;
-    background-color: var(--color-base);
-    border: none;
-}
-
-.cajaLink a{
-    text-decoration: none;
-    color: var(--color-oscuro);
-    height: auto;
     width: auto;
+    background-color: var(--color-base);
+    color: var(--color-oscuro);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
-button :hover{
-    font-size: 35px;
-    color: var(--color-verde-oscuro);
+section a:hover{
+    background-color: var(--color-verde-oscuro);
+    color: var(--color-base);
 }
+
+
+
+
 footer{
     background-color: black;
     height: auto;
