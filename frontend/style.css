@@ -25,6 +25,7 @@ nav{
 }
 nav h1{
     font-family: 'Alfa Slab One', cursive;
+    margin: 0;
 }
 nav button{
     background: none;
